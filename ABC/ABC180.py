@@ -1,5 +1,5 @@
-# N,A,B = map(int,input().split())
-# print(N-A+B)
+N,A,B = map(int,input().split())
+print(N-A+B)
 
 # import math
 # N = int(input())
@@ -29,14 +29,14 @@
 # for num in nums:
 #   print(num)
 
-from collections import deque
-X,Y,A,B = map(int,input().split())
-cnt = 0
-while X*A <= X + B and X*A < Y:
-  X *= A
-  cnt += 1
+# from collections import deque
+# X,Y,A,B = map(int,input().split())
+# cnt = 0
+# while X*A <= X + B and X*A < Y:
+#   X *= A
+#   cnt += 1
 
-print(cnt + (Y-1-X)//B)
+# print(cnt + (Y-1-X)//B)
 
 # q = deque()
 # q.append(X)
